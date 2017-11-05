@@ -1,0 +1,174 @@
+body{
+    margin: 0px;
+}
+
+.NVDIA-linker {
+    background: url("/static/assets/NVIDIA-Logo.svg") no-repeat center center;
+    width: 110px;
+    height: 44px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav{
+    background-color: white;
+}
+
+.hackx-linker {
+    background: url("/static/assets/nav-logo.png") no-repeat center center;
+    width: 110px;
+    height: 44px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.title{
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    height: 100px;
+    font-size: 40px;
+    color: rgb(104, 255, 104);
+    padding-top: 30px;
+    font-family: "Microsoft Yahei";
+}
+
+.main{
+    background-color: black;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+.main-Mr img{
+    width: 800px;
+    height: 490px;
+}
+
+.control{
+    width:800px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    height: 300px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 300px;
+}
+
+.row button{
+    width: 80px;
+    height: 80px;
+    font-family: "Times New Roman";
+    font-size: 15px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#forward{
+    background-image: url("/static/assets/forward.jpg");
+}
+
+#forward-left{
+    background-image: url("/static/assets/forward-left.jpg");
+    background-size: 80% 80%;
+}
+
+#forward-right{
+    background-image: url("/static/assets/forward-right.jpg");
+    background-size: 80% 80%;
+}
+
+#left{
+    background-image: url("/static/assets/left.jpg");
+}
+
+#right{
+    background-image: url("/static/assets/right.jpg");
+}
+
+#back{
+    background-image: url("/static/assets/back.jpg");
+}
+
+#stop{
+    background-image: url("/static/assets/stop.jpg");
+}
+
+#back-left{
+    background-size: 80% 80%;
+    background-image: url("/static/assets/back-left.jpg");
+}
+
+#back-right{
+    background-size: 80% 80%;
+    background-image: url("/static/assets/back-right.jpg");
+}
+
+.main-two{
+    background-color:aliceblue;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 14.6%;
+    padding-right: 14.6%;
+}
+
+.main-two-left button{
+    height: 75px;
+    width: 250px;
+    display: block;
+    margin-top: 20px;
+}
+
+.main-two-left h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.video img{
+    width: 640px;
+    height: 480px;
+}
+
+div.data{
+    color: white;
+}
+
+@media screen and (max-width: 1500px){
+    .video img{
+        width: 480px;
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .main{
+        flex-direction: column-reverse;
+        height: 1000px;
+    }
+
+    .control{
+        margin-bottom: 150px;
+    }
+
+    .main-two{
+        flex-direction: column;
+        height: 800px;
+    }
+}
